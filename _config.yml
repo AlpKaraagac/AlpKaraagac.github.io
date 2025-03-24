@@ -1,10 +1,10 @@
- title                 : Your awesome blog
+ title                 : Alp Karaagac
  email                 : 
  description: >- 
-   Some description.
+   Personal blog and portfolio - AI, ML, NLP and beyond
  baseurl               : ""
- url                   : http://yourname.github.io
- github_username       : annjulyleon
+ url                   : http://alpkaraagac.github.io
+ github_username       : AlpKaraagac
     
  remote_theme          : mmistakes/minimal-mistakes
  minimal_mistakes_skin : default
@@ -16,13 +16,14 @@
  permalink             : /:categories/:title/
  paginate              : 5
  paginate_path         : /page:num/
- timezone              : Europe/Moscow
+ timezone              : Europe/Berlin
     
  teaser: /assets/images/default/teaserfallback.png
  logo: /assets/images/default/logo.png
     
  include:
    - _pages
+   - _posts
       
  plugins:
    - jekyll-feed
@@ -34,29 +35,31 @@
    - jekyll-include-cache
     
  author:
-   name                : "Your Name"
-   avatar              : "/assets/images/default/bio-photo.jpg"
-   bio                 : "That's me!"
-   location            : "Moscow, Russia"
-   links:
-     - label: "GitHub"
-       icon: "fab fa-fw fa-github"
-       url: "https://github.com/yourname"
-     - label: "LinkdIn"
-       icon: "fab fa-fw fa-linkedin"
-       url: "https://www.linkedin.com/in/yourname/"
+  name      : "Alp Karaagac"
+  avatar    : "/assets/images/default/bio-photo.jpg"
+  bio       : "That's me!"
+  location  : "Munich, Germany"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/AlpKaraagac"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/alpkaraagac"
+
     
  footer:
-   links:
-     - label: "GH"
-       icon: "fab fa-fw fa-github"
-       url: "https://github.com/yourname"
-     - label: "LI"
-       icon: "fab fa-fw fa-linkedin"
-       url: "https://www.linkedin.com/in/yourname/"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/AlpKaraagac"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/alpkaraagac"
+
     
  encoding             : "utf-8"
-     
+
  category_archive:
    type: liquid
    path: /categories/

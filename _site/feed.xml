@@ -1,17 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-24T15:09:55+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome blog</title><subtitle>Some description.</subtitle><author><name>Your Name</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2025-03-24T11:44:44+03:00</published><updated>2025-03-24T11:44:44+03:00</updated><id>http://localhost:4000/jekyll/update/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/welcome-to-jekyll/"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-24T20:03:29+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alp Karaagac</title><subtitle>Personal blog and portfolio - AI, ML, NLP and beyond</subtitle><author><name>Alp Karaagac</name></author><entry><title type="html">Starting My Reinforcement Learning in Finance Project</title><link href="http://localhost:4000/projects/rl/finance/rl-finance-project/" rel="alternate" type="text/html" title="Starting My Reinforcement Learning in Finance Project" /><published>2025-03-22T09:44:44+01:00</published><updated>2025-03-22T09:44:44+01:00</updated><id>http://localhost:4000/projects/rl/finance/rl-finance-project</id><content type="html" xml:base="http://localhost:4000/projects/rl/finance/rl-finance-project/"><![CDATA[<p>Welcome to the first post of my <strong>Reinforcement Learning in Finance</strong> project! 👋</p>
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+<p>This blog will serve as my public notebook — a place to document ideas, experiments, results, mistakes, breakthroughs, and everything in between as I try to answer this core question:</p>
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+<blockquote>
+  <p><em>Can reinforcement learning agents learn to make intelligent decisions in dynamic, noisy financial markets?</em></p>
+</blockquote>
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<hr />
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<h3 id="-why-rl-in-finance">💡 Why RL in Finance?</h3>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<p>Markets are complex, uncertain, and ever-changing — which makes them a fascinating environment for reinforcement learning. The idea of training agents that can <strong>learn to trade</strong>, <strong>adapt to new patterns</strong>, or even <strong>discover strategies</strong> is both exciting and challenging.</p>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>Your Name</name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+<p>That said, it’s also messy, data-hungry, and filled with edge cases. Which is exactly why I’m documenting everything here.</p>
+
+<hr />
+
+<h3 id="-what-im-planning-to-explore">🔬 What I’m Planning To Explore</h3>
+
+<p>Some of the topics I’ll cover along the way:</p>
+
+<ul>
+  <li>✅ Environment design for market simulation</li>
+  <li>✅ Reward shaping and agent feedback</li>
+  <li>✅ Deep RL algorithms (PPO, DQN, A2C, etc.)</li>
+  <li>✅ Portfolio-level decision making</li>
+  <li>✅ Common pitfalls (overfitting, hindsight bias)</li>
+  <li>✅ Evaluation metrics that actually mean something</li>
+</ul>
+
+<hr />
+
+<h3 id="-tech-stack">🧪 Tech Stack</h3>
+
+<ul>
+  <li><strong>Frameworks</strong>: PyTorch, OpenAI Gym, stable-baselines3</li>
+  <li><strong>Data</strong>: Yahoo Finance, simulated market data</li>
+  <li><strong>Extras</strong>: Pandas, NumPy, Matplotlib, wandb (maybe)</li>
+</ul>
+
+<hr />
+
+<h3 id="️-what-to-expect-here">✍️ What to Expect Here</h3>
+
+<ul>
+  <li>Regular updates as I experiment and build</li>
+  <li>Short blog-style deep dives into specific subtopics</li>
+  <li>Honest reflections on what’s working (and what’s totally not)</li>
+</ul>
+
+<p>This project is a learning journey — so the goal isn’t just to make something that “works”, but to <strong>understand the process</strong>, <strong>ask the right questions</strong>, and <strong>sharpen my thinking</strong> around AI in real-world settings.</p>
+
+<hr />
+
+<p>Thanks for following along 🙌<br />
+More updates soon. Next post: defining the environment and agent setup!</p>]]></content><author><name>Alp Karaagac</name></author><category term="projects" /><category term="RL" /><category term="finance" /><category term="reinforcement-learning" /><category term="deep-rl" /><category term="trading" /><category term="machine-learning" /><summary type="html"><![CDATA[Welcome to the first post of my Reinforcement Learning in Finance project! 👋]]></summary></entry></feed>

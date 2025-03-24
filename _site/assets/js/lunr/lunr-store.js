@@ -1,7 +1,7 @@
 var store = [{
-        "title": "Welcome to Jekyll!",
-        "excerpt":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when...","categories": ["jekyll","update"],
-        "tags": [],
-        "url": "/jekyll/update/welcome-to-jekyll/",
+        "title": "Starting My Reinforcement Learning in Finance Project",
+        "excerpt":"Welcome to the first post of my Reinforcement Learning in Finance project! 👋 This blog will serve as my public notebook — a place to document ideas, experiments, results, mistakes, breakthroughs, and everything in between as I try to answer this core question: Can reinforcement learning agents learn to make...","categories": ["projects","RL","finance"],
+        "tags": ["reinforcement-learning","deep-rl","trading","machine-learning"],
+        "url": "/projects/rl/finance/rl-finance-project/",
         "teaser": "/assets/images/default/teaserfallback.png"
       }]

@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/jekyll/update/welcome-to-jekyll/</loc>
-<lastmod>2025-03-24T11:44:44+03:00</lastmod>
+<loc>http://localhost:4000/projects/rl/finance/rl-finance-project/</loc>
+<lastmod>2025-03-22T09:44:44+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/_posts/2025-03-22-rl-finance-project/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/year-archive/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/files/Alp-Karaagac-Resume.pdf</loc>
+<lastmod>2025-03-24T20:03:19+01:00</lastmod>
 </url>
 </urlset>
