@@ -6,7 +6,7 @@
  url                   : http://yourname.github.io
  github_username       : annjulyleon
     
- theme                 : minimal-mistakes-jekyll
+ remote_theme          : mmistakes/minimal-mistakes
  minimal_mistakes_skin : default
  search                : true
  words_per_minute      : 200

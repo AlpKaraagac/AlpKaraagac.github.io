@@ -1,9 +1,12 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
-gem "jekyll", "~> 4.2.0"
-gem "minimal-mistakes-jekyll"
-   
+
+# Let GitHub Pages manage Jekyll and dependencies
+gem "github-pages", group: :jekyll_plugins
+
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed"
   gem "jekyll-paginate"
   gem "jekyll-sitemap"
   gem "jekyll-gist"
@@ -11,10 +14,14 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
 end
-   
+
+# Platform-specific gems for Windows
 platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", "~> 1.2"
+  gem "tzinfo"
   gem "tzinfo-data"
 end
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-gem "webrick", "~> 1.9"
+
+gem "wdm", platforms: [:mingw, :x64_mingw, :mswin]
+
+# Required to run `jekyll serve` with Ruby 3+
+gem "webrick"
