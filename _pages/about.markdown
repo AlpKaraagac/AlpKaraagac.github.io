@@ -47,4 +47,4 @@ When I’m not coding or studying, I spend time on activities that challenge me 
 
 ---
 
-Feel free to check out my [latest blog posts](/year-archive/), explore my [GitHub](https://github.com/alpkaraagac), or [connect with me](mailto:youremail@example.com).
+Feel free to check out my [latest blog posts](/year-archive/), explore my [GitHub](https://github.com/alpkaraagac), or [connect with me](mailto:alp.karaagac@tum.de).
